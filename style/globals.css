@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+:root {
+  --primary: #1f6feb;
+  --secondary: rgba(56, 139, 253, 0.4);
+  --black-100: ##828282;
+  --active-input: #fff9e2;
+  --boxShadow: 0px 35px 120px -15px #211e35;
+  --text: #fff;
+  --hero-bg: #caffde45;
+  --hero-pattern: url("/src/assets/herobg.png");
+  --card-bg: #0d1117;
+  --border-card: #21262d;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fff;
+  color: var(--white-100);
+}
+p,
+a,
+button,
+span,
+label,
+input {
+  font-family: "Poppins";
+  -moz-font-feature-settings: "ss02";
+  -webkit-font-feature-settings: "ss02";
+  font-feature-settings: "ss02";
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.padding-none {
+  padding: unset !important;
+}
+
+button,
+a {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-family: "Poppins";
+}
+
+input {
+  font-family: "Poppins";
+  outline: 0;
+}
+
+img {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+  supported by Chrome, Opera and Firefox */
+  max-width: 100%;
+}
+
+/*---------------------------------------------------------------
+  # Layout
+-----------------------------------------------------------------*/
+.d-none {
+  display: none !important;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+.no-scroll {
+  overflow-y: hidden;
+}
+.mobile {
+  display: flex !important;
+}
+.desktop {
+  display: none !important;
+}
+.disable {
+  pointer-events: none;
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    overflow: auto !important;
+  }
+  .mobile {
+    display: none !important;
+  }
+  .desktop {
+    display: flex !important;
+  }
+}
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background: var(--primary);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary);
+}
+#app {
+  background: #010409;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 48px;
+  min-height: 100vh;
+}
