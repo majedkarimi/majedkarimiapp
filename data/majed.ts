@@ -21,7 +21,7 @@ const MAJED = {
       id: "string",
       description:
         "Banimode is a clothing online shopping mall that started in 2014 and has been able to work with more than 500 Iranian and international brands over the years to improve the online shopping experience in Iran",
-      tags: ["Next js", "PWA", "Restful Api", "Tailwindcss", "React Query"],
+      tags: ["Next js", "React", "Restful Api", "Tailwindcss"],
       source_code_img: "/assets/icon/banimode.png",
       source_code_link: "https://www.banimode.com/banigame/offwin03",
       image: "string",
@@ -31,7 +31,7 @@ const MAJED = {
       id: "string",
       description:
         "This Luck Wheel Game is a custom-made promotional feature for Banimode, designed and built entirely by me. I created the entire game from scratch, including the code, logic, and animations. It’s now a reusable tool that Banimode can activate anytime they want to run a promotion, making it a flexible and effective part of their marketing strategy.",
-      tags: ["React", "Typescript", "Restful Api", "Redux", "Animations"],
+      tags: ["React", "Typescript", , "Redux"],
       source_code_img: "/assets/icon/banimode.png",
       source_code_link: "https://www.banimode.com/banigame/offwin03",
       image: "string",
