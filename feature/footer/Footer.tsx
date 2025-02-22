@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./footer.module.scss";
+import style from "./footer.module.css";
 import MAJED from "@/data/majed";
 const Footer = () => {
   const { information } = MAJED;
@@ -8,7 +8,7 @@ const Footer = () => {
       <div className={style.inner}>
         <div className="flex flex-col gap-1">
           <div className="copyright">
-            <span>Copyright © 2024 Majed Karimi. All rights reserved.</span>
+            <span>Copyright © 2025 Majed Karimi. All rights reserved.</span>
           </div>
           <div className={style.information}>
             {/* <div className={style.mobile}>

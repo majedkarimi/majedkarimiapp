@@ -1,4 +1,4 @@
-import style from "./hero.module.scss";
+import style from "./hero.module.css";
 import { infoType } from "@/types/info";
 import { scrollTosection } from "@/helpers/healper";
 import Image from "next/image";
@@ -7,7 +7,7 @@ const Hero = () => {
   const { information } = MAJED;
   return (
     <section className={`${style.hero} `}>
-      <div className={`${style.inner} animate-hero`}>
+      <div className={`${style.inner} `}>
         <div className={style["animate-inner"]}>
           <div className={style.title}>
             <div className={style.name}>

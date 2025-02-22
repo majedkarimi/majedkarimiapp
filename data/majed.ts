@@ -4,7 +4,7 @@ const MAJED = {
     logo_name: "Majed",
     full_name: "Majed Karimi",
     description:
-      "Majed Karimi is a Frontend Engineer and  currently working on the Banimode online shop. He has worked at Banimode for over 3 years, focused on  the Performance, User Profile, Cart process  and develope more than 12 game landing pages like Black friday, Yalda, Backtoschool",
+      "Majed Karimi is a skilled Frontend Developer with over 3 years of professional experience, currently working at Banimode, a leading online shop. Specializing in modern web technologies, Majed has a strong focus on performance optimization, user experience, and scalable web applications.",
     phone: "9172155017",
     email: "majed.karimi3@gmail.com",
     hero: "/assets/img/hero.jpg",
@@ -16,7 +16,28 @@ const MAJED = {
     x: "https://twitter.com/majedkariim",
     x_logo: "/assets/icon/x.svg",
   },
-  projects: {},
+  projects: [
+    {
+      id: "string",
+      description:
+        "Banimode is a clothing online shopping mall that started in 2014 and has been able to work with more than 500 Iranian and international brands over the years to improve the online shopping experience in Iran",
+      tags: ["Next js", "PWA", "Restful Api", "Tailwindcss", "React Query"],
+      source_code_img: "/assets/icon/banimode.png",
+      source_code_link: "https://www.banimode.com/banigame/offwin03",
+      image: "string",
+      name: "Banimode - Online Shop",
+    },
+    {
+      id: "string",
+      description:
+        "This Luck Wheel Game is a custom-made promotional feature for Banimode, designed and built entirely by me. I created the entire game from scratch, including the code, logic, and animations. It’s now a reusable tool that Banimode can activate anytime they want to run a promotion, making it a flexible and effective part of their marketing strategy.",
+      tags: ["React", "Typescript", "Restful Api", "Redux", "Animations"],
+      source_code_img: "/assets/icon/banimode.png",
+      source_code_link: "https://www.banimode.com/banigame/offwin03",
+      image: "string",
+      name: "Lucky wheel Game",
+    },
+  ],
   navigation: {},
 };
 export default MAJED;

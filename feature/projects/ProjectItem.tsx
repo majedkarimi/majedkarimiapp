@@ -10,8 +10,8 @@ const ProjectItem: React.FC<projectsType> = (props) => {
           <Image
             src={props.source_code_img}
             alt={props.name}
-            width={20}
-            height={20}
+            width={40}
+            height={40}
           />
         </div>
         <a

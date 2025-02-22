@@ -5,6 +5,7 @@
   width: 100%;
   margin-top: auto;
 }
+
 .inner {
   display: flex;
   width: 100%;
@@ -18,12 +19,14 @@
   flex-direction: column;
   padding: 16px;
   border-radius: 40px 40px 0 0;
-  a {
-    color: #58a6ff;
-    border-bottom: 1px solid;
-    font-size: 12px;
-  }
 }
+
+.inner a {
+  color: #58a6ff;
+  border-bottom: 1px solid;
+  font-size: 12px;
+}
+
 .email,
 .mobile {
   display: flex;
@@ -31,12 +34,14 @@
   align-items: center;
   gap: 4px;
 }
+
 .information {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 14px;
 }
+
 @media screen and (min-width: 1000px) {
   .inner {
     align-items: center;
@@ -44,8 +49,9 @@
     gap: 8px;
     font-size: 13px;
     border-radius: 40px 40px 0 0;
-    a {
-      font-size: 13px;
-    }
+  }
+
+  .inner a {
+    font-size: 13px;
   }
 }

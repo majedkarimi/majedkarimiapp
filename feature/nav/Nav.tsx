@@ -1,7 +1,7 @@
 "use client";
 import React, { useCallback, useEffect, useState } from "react";
 import Image from "next/image";
-import style from "./nav.module.scss";
+import style from "./nav.module.css";
 import { scrollTosection } from "@/helpers/healper";
 import { infoType } from "@/types/info";
 import MAJED from "@/data/majed";
